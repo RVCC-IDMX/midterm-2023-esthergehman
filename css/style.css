@@ -1,7 +1,39 @@
-#gallery img{
+/* Body Style */
+
+body {
+    text-align:center;
+    color: #086A99;
+    background-color: #FFB459;
+    font-family: 'Eczar', serif;
+    font-size: 20pt;
+}
+
+/* Heading Style */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavoon', cursive;
+}
+
+/* Websites List Style */
+
+#websites {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Customers Style */
+
+#customers img{
     width:50vw;
     max-width:100%;
     min-width:100px;
+}
+
+/* Hero and Footer Style */
+header, footer {
+    text-align:center;
+    padding:20px;
 }
 
 /* Media Queries */
